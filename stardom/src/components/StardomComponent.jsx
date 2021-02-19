@@ -71,16 +71,16 @@ export default class Table extends Component {
     render() {
         return (
             <>
-                <div className="table-content">
+                <div className="tableContent">
                     <div className="buttons">
-                        <button className="addProstar" onClick={this.addRandomProstar}>Get Random Contact</button>
+                        <button className="getRandom" onClick={this.addRandomProstar}>Get Random Contact</button>
                         <button className="sortByName" onClick={this.sortName}>Sort By Name</button>
                         <button className="sortByPopularity" onClick={this.sortPopularity}>Sort By Popularity</button>
                     </div>
                     <div >
                         <center>
                         <table className="tableProstar">
-                            <thead className="tableHeading">
+                            <thead className="FirstRow">
                             <tr>
                                 <th>Picture</th>
                                 <th>Name</th>
